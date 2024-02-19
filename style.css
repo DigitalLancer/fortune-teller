@@ -1,0 +1,54 @@
+.orb{
+    width: 22%;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: pacifico;
+    text-align: center;
+    color: rgb(253, 202, 226);
+}
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(160, 110, 207),rgb(24, 15, 32)) ;
+    height: 100vh;
+}
+.textField{
+    background-color: grey;
+    border: solid;
+    border-radius: 20px;
+    height: 50px;
+    cursor:default;
+    background-color: beige;
+    margin: 15px;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    width: 60%;
+}
+#input{
+    width: 70%;
+    margin: 20px 0;
+}
+button{
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid;
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(175, 203, 203);
+}
+.answer{
+    font-family: pacifico;
+    color: white;
+    visibility:hidden;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+
