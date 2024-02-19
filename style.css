@@ -11,11 +11,11 @@
 h1{
     font-family: pacifico;
     text-align: center;
-    color: rgb(253, 202, 226);
+    color: rgb(249, 233, 236);
 }
 body{
     margin: 0;
-    background: linear-gradient(to bottom, rgb(160, 110, 207),rgb(24, 15, 32)) ;
+    background: linear-gradient(to bottom, rgb(160, 110, 207),rgb(42, 26, 56)) ;
     height: 100vh;
 }
 .textField{
