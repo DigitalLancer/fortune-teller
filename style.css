@@ -1,5 +1,5 @@
-.orb{
-    width: 22%;
+.fortuneTeller-img{
+    width: 280px;
 }
 .container{
     text-align: center;
@@ -16,7 +16,7 @@ h1{
 body{
     margin: 0;
     background: linear-gradient(to bottom, rgb(160, 110, 207),rgb(42, 26, 56)) ;
-    height: 100vh;
+    height: 100%;
 }
 .textField{
     background-color: grey;
