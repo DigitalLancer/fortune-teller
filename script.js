@@ -7,15 +7,17 @@ const speechBubble=document.querySelector(".answer");
 
 const answers = ["Yes", "No", "Most definitely", "Uncertain","Absolutely","Unlikely"];
 
-submitButton.addEventListener('click',()=>{
-   
-    const index=Math.floor(Math.random() * 6);
-    const answer=answers[index];
-    console.log(`Asnwer given: ${answer}`);
-    const input=document.querySelector("#question");
-    question=input.value;
-    input.value="";
-    speechBubble.textContent=answer;
-    speechBubble.style.visibility="visible";
+container.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    if(input.value){
+        const index=Math.floor(Math.random() * 6);
+        const answer=answers[index];
+        console.log(`Asnwer given: ${answer}`);
+        question=input.value;
+        input.value="";
+        speechBubble.textContent=answer;
+        speechBubble.style.visibility="visible";
+    }
+
     
 });
